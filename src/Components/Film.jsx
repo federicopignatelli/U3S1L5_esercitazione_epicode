@@ -42,7 +42,7 @@ class Film extends Component {
                 ) : (
                     <div>
 
-                        <Row>
+                        <Row className="d-flex justify-content-evenly">
                             {this.state.movies.map(Film => (
                                 <SingleFilm key={Film.imdbID} title={Film.Title} poster={Film.Poster} />
                             ))}

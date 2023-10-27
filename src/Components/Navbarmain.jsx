@@ -31,7 +31,7 @@ const Navbarmain = function () {
                         <Nav.Link href="#home"><p className="fs-5 text-white mt-3"><i className="bi bi-search"></i></p></Nav.Link>
                         <Nav.Link href="#link"><p className="fs-5 text-white mt-3">KIDS</p></Nav.Link>
                         <Nav.Link href="#link"><p className="fs-5 text-white mt-3"><i className="bi bi-bell-fill"></i></p></Nav.Link>
-                        <Nav.Link href="#link"><Image src={Avatar} alt="avatar" width="50px" height="50px" className="mt-2 ms-3" /></Nav.Link>
+                        <Nav.Link href="#link"><Image src={Avatar} alt="avatar" width="50px" height="50px" className="mt-2" /></Nav.Link>
                         <Nav.Link href="#link"><p className="fs-5 text-white mt-3"><i className="bi bi-caret-down-fill"></i></p></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

@@ -5,8 +5,6 @@ import Footer from './Components/Footer';
 import Film from './Components/Film';
 
 
-
-
 function App() {
   return (
     <div className="App bg-black">
