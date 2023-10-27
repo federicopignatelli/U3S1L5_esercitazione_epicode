@@ -7,7 +7,7 @@ const Footer = function () {
     return (
         <>
 
-            <Container fluid className=''>
+            <Container fluid className='mx-3'>
                 <Row>
                     <Container fluid className='d-flex text-white text-opacity-50 fs-4 mb-4 mt-5 '>
                         <i className="bi bi-facebook me-3"></i>
