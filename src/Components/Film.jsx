@@ -1,6 +1,5 @@
-import React from "react";
-import Component from "react";
-import Row from 'react-bootstrap/Row';
+import React, { Component } from "react";
+import { Row } from "react-bootstrap";
 import SingleFilm from "./SingleFilm";
 
 
