@@ -14,11 +14,11 @@ function App() {
         <Navbarmain />
       </header>
       <main>
-        <h1 className="text-white mx-5 my-4">Harry Potter</h1>
+        <h1 className="text-white mx-4 my-4">Harry Potter</h1>
         <Film propId={"harry+potter"} />
-        <h1 className="text-white mx-5 my-4">Iron Man</h1>
+        <h1 className="text-white mx-4 my-4">Iron Man</h1>
         <Film propId={"iron+man"} />
-        <h1 className="text-white mx-5 my-4">Spider Man</h1>
+        <h1 className="text-white mx-4 my-4">Spider Man</h1>
         <Film propId={"spider+man"} />
       </main>
       <Footer />
