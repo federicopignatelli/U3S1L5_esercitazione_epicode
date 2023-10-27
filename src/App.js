@@ -25,3 +25,10 @@ function App() {
 }
 
 export default App;
+
+
+//cose da fare
+//trasformare contenuti sito vecchio in react boostrap: FATTO
+//rendere tutto responsive: FATTO
+//fetch get: FATTO
+//spinner: FATTO
