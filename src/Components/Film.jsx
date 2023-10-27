@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Row } from "react-bootstrap";
 import SingleFilm from "./SingleFilm";
+import Spinner from 'react-bootstrap/Spinner';
 
 
 class Film extends Component {
@@ -31,9 +32,11 @@ class Film extends Component {
 
     render() {
         return (
-            <div>
+            <div className="text-center">
                 {this.state.isLoading ? (
-                    <p>Caricamento...</p>
+                    <Spinner animation="border" role="status" variant="light">
+                        <span className="visually-hidden">Loading...</span>
+                    </Spinner>
                 ) : this.state.isError ? (
                     <p>C'è stato un errore durante il recupero dei dati.</p>
                 ) : (
